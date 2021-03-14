@@ -1,4 +1,5 @@
-﻿using ToolBoxDeveloper.DomainContext.MVC.Domain.Entities;
+﻿using System;
+using ToolBoxDeveloper.DomainContext.MVC.Domain.Entities;
 
 namespace ToolBoxDeveloper.DomainContext.MVC.Domain.Dto
 {
@@ -27,5 +28,11 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Domain.Dto
         public string Key { get; set; }
         public string Description { get; set; }
         public string UserRegister { get; set; }
+
+        internal DomainContextDto SetEmail(string userRegister)
+        {
+            this.UserRegister = userRegister;
+            return this;
+        }
     }
 }

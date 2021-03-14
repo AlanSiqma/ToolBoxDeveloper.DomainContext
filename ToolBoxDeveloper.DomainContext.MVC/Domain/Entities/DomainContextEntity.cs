@@ -25,5 +25,9 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Domain.Entities
 
             return this;
         }
+        public override string ToString()
+        {
+            return "DomainContextEntity";
+        }
     }
 }

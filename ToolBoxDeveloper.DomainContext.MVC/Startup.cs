@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,6 +34,21 @@ namespace ToolBoxDeveloper.DomainContext.MVC
                 sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
 
             services.AddInjectionConfiguration();
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
+            {
+                opt.LoginPath = new PathString("/Autentication/Index");
+                opt.LogoutPath = new PathString("/Autentication/Logout");
+                opt.Cookie = new CookieBuilder()
+                {
+                    Name = "Teste",
+                    //Expiration = new System.TimeSpan(0, 120, 0),
+                    //Se tiver um domínio...
+                    //Domain = ".site.com.br",
+                };
+            }); ;
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +69,8 @@ namespace ToolBoxDeveloper.DomainContext.MVC
 
             app.UseRouting();
 
+            app.UseCookiePolicy();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

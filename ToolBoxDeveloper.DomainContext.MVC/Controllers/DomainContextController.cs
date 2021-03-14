@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using ToolBoxDeveloper.DomainContext.MVC.Domain.Contracts;
@@ -6,26 +8,32 @@ using ToolBoxDeveloper.DomainContext.MVC.Domain.Dto;
 
 namespace ToolBoxDeveloper.DomainContext.MVC.Controllers
 {
+    [Authorize]
     public class DomainContextController : Controller
     {
         private readonly IDomainContextService _domainContextService;
-        public DomainContextController(IDomainContextService domainContextService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public DomainContextController(IDomainContextService domainContextService, IHttpContextAccessor httpContextAccessor)
         {
             this._domainContextService = domainContextService;
+            this._httpContextAccessor = httpContextAccessor;
         }
         // GET: DomainContextController
-
+        private string NameContext()
+        {
+            return this._httpContextAccessor.HttpContext.User.Identity.Name;
+        }
+       
         public async Task<ActionResult> Index()
         {
             List<DomainContextDto> list = await this._domainContextService.GetAll();
-
             return View(list);
         }
 
         // GET: DomainContextController/Create
         public ActionResult Create()
         {
-            return View(new DomainContextDto());
+            return View(new DomainContextDto().SetEmail(NameContext()));
         }
 
         // POST: DomainContextController/Create
@@ -50,7 +58,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Controllers
         {
             DomainContextDto result = await this._domainContextService.Find(id);
 
-            return View(result);
+            return View(result.SetEmail(NameContext()));
         }
 
         // POST: DomainContextController/Edit/5

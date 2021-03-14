@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj": {}
+    "F:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj": {}
   },
   "projects": {
-    "G:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj": {
+    "F:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj",
+        "projectUniqueName": "F:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj",
         "projectName": "ToolBoxDeveloper.DomainContext.MVC",
-        "projectPath": "G:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "G:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\obj\\",
+        "projectPath": "F:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\ToolBoxDeveloper.DomainContext.MVC.csproj",
+        "packagesPath": "C:\\Users\\alans\\.nuget\\packages\\",
+        "outputPath": "F:\\source\\ToolBoxDeveloper\\ToolBoxDeveloper.DomainContext\\ToolBoxDeveloper.DomainContext.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "G:\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +46,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

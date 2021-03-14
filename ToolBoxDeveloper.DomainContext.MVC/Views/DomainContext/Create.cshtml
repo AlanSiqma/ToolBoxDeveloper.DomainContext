@@ -9,7 +9,7 @@
     <form asp-action="Create">
         <div class="row">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
+            @Html.HiddenFor(x => x.UserRegister)
             <div class="col-md-4">
                 <label asp-for="Organization" class="control-label"></label>
                 <input asp-for="Organization" class="form-control" />
@@ -34,11 +34,6 @@
                 <label asp-for="Description" class="control-label"></label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="col-md-4">
-                <label asp-for="UserRegister" class="control-label"></label>
-                <input asp-for="UserRegister" class="form-control" />
-                <span asp-validation-for="UserRegister" class="text-danger"></span>
             </div>
         </div>
         <div class="row row-site">

@@ -11,6 +11,8 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Infra.IoC
         {
             service.AddTransient<IDomainContextService, DomainContextService>();
             service.AddTransient<IDomainContextRepository, DomainContextRepository>();
+            service.AddTransient<IUserService, UserService>();
+            service.AddTransient<IUserRepository, UserRepository>();
 
             return service;
         }
