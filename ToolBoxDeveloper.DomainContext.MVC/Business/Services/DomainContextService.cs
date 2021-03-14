@@ -42,9 +42,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Business.Services
         {
             var result = true;
             try
-            {
-                //dto.GenerateId();
-
+            {            
                 await this._domainContextRepository.Create(new DomainContextEntity().BuildDto(dto));
             }
             catch (Exception)
@@ -55,21 +53,22 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Business.Services
             return result;
         }
 
-        public async Task Delete(string id)
+        public async Task<bool> Delete(string id)
         {
-            var result = true;
+            var result = false;
             try
             {
                 var entity = (await this._domainContextRepository.Get(x => x.Id.Equals(id))).FirstOrDefault();
 
                 await this._domainContextRepository.Remove(entity);
+
+                result = true;
             }
             catch (Exception)
             {
                 result = false;
             }
-
-          
+            return result;
         }
 
         public async Task<DomainContextDto> Find(string id)

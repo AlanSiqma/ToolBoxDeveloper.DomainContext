@@ -44,8 +44,6 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Business.Services
             var result = true;
             try
             {
-                //dto.GenerateId();
-
                 await this._userRepository.Create(new UserEntity().BuildDto(dto));
             }
             catch (Exception)
@@ -56,21 +54,21 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Business.Services
             return result;
         }
 
-        public async Task Delete(string id)
+        public async Task<bool> Delete(string id)
         {
-            var result = true;
+            var result = false;
             try
             {
                 var entity = (await this._userRepository.Get(x => x.Id.Equals(id))).FirstOrDefault();
 
                 await this._userRepository.Remove(entity);
+                result = true;
             }
             catch (Exception)
             {
                 result = false;
             }
-
-
+            return result;
         }
 
         public async Task<UserDto> Find(string id)
@@ -118,7 +116,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Business.Services
             }
             catch (Exception)
             {
-                throw;
+                result = false;
             }
             return result;
         }

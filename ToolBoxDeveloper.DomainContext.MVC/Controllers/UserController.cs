@@ -9,11 +9,9 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        public UserController(IUserService userService, IHttpContextAccessor httpContextAccessor)
+        public UserController(IUserService userService)
         {
             this._userService = userService;
-            this._httpContextAccessor = httpContextAccessor;
         }
 
         public ActionResult Index()

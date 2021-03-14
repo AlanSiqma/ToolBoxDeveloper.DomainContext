@@ -46,7 +46,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC
                     //Se tiver um domínio...
                     //Domain = ".site.com.br",
                 };
-            }); ;
+            });
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }

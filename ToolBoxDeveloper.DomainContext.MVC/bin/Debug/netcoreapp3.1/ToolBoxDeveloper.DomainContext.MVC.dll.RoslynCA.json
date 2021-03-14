@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21123.28 (0ffb6577)",
+        "semanticVersion": "3.9.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "S4834",
+          "level": "warning",
+          "message": "Make sure controlling this permission is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/Controllers/AutenticationController.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 32,
+                  "endLine": 34,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4834",
+          "level": "warning",
+          "message": "Make sure controlling this permission is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/Controllers/AutenticationController.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 29,
+                  "endLine": 44,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S4834": {
+          "id": "S4834",
+          "shortDescription": "Controlling permissions is security-sensitive",
+          "fullDescription": "The access control of an application must be properly implemented in order to restrict access to resources to authorized entities otherwise this could lead to vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4834",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

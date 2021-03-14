@@ -1,0 +1,2039 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21123.28 (0ffb6577)",
+        "semanticVersion": "3.9.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 67,
+                  "endLine": 33,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 207,
+                  "endLine": 75,
+                  "endColumn": 209
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 212,
+                  "endLine": 59,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 212,
+                  "endLine": 73,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 213,
+                  "endLine": 79,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 215,
+                  "endLine": 101,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 209,
+                  "endLine": 123,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 215,
+                  "endLine": 145,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 216,
+                  "endLine": 167,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 210,
+                  "endLine": 189,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 215,
+                  "endLine": 213,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 207,
+                  "endLine": 68,
+                  "endColumn": 209
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 213,
+                  "endLine": 78,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 215,
+                  "endLine": 111,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 210,
+                  "endLine": 133,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 215,
+                  "endLine": 155,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 216,
+                  "endLine": 177,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 210,
+                  "endLine": 199,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 215,
+                  "endLine": 223,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 213,
+                  "endLine": 78,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 215,
+                  "endLine": 108,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 209,
+                  "endLine": 130,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 215,
+                  "endLine": 152,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 216,
+                  "endLine": 174,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 210,
+                  "endLine": 196,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 215,
+                  "endLine": 218,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 209,
+                  "endLine": 91,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 209,
+                  "endLine": 106,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 209,
+                  "endLine": 121,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 212,
+                  "endLine": 152,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 200,
+                  "startColumn": 212,
+                  "endLine": 200,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 212,
+                  "endLine": 221,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 252,
+                  "startColumn": 212,
+                  "endLine": 252,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 289,
+                  "startColumn": 212,
+                  "endLine": 289,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 217,
+                  "endLine": 309,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 217,
+                  "endLine": 323,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 217,
+                  "endLine": 337,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 213,
+                  "endLine": 80,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 215,
+                  "endLine": 110,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 210,
+                  "endLine": 132,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 215,
+                  "endLine": 154,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 216,
+                  "endLine": 176,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 210,
+                  "endLine": 198,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 215,
+                  "endLine": 220,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 216,
+                  "endLine": 242,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 210,
+                  "endLine": 264,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 215,
+                  "endLine": 286,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 216,
+                  "endLine": 308,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 210,
+                  "endLine": 330,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 215,
+                  "endLine": 352,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 216,
+                  "endLine": 374,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 210,
+                  "endLine": 396,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 215,
+                  "endLine": 418,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 440,
+                  "startColumn": 212,
+                  "endLine": 440,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 213,
+                  "endLine": 80,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 215,
+                  "endLine": 118,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 210,
+                  "endLine": 140,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 215,
+                  "endLine": 162,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 216,
+                  "endLine": 184,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 210,
+                  "endLine": 206,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 215,
+                  "endLine": 228,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 216,
+                  "endLine": 250,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 210,
+                  "endLine": 272,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 215,
+                  "endLine": 294,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 216,
+                  "endLine": 316,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 338,
+                  "startColumn": 210,
+                  "endLine": 338,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 215,
+                  "endLine": 360,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 216,
+                  "endLine": 382,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 404,
+                  "startColumn": 210,
+                  "endLine": 404,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 426,
+                  "startColumn": 215,
+                  "endLine": 426,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 448,
+                  "startColumn": 212,
+                  "endLine": 448,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_Shared__Layout.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 24,
+                  "endLine": 58,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_Shared__ValidationScriptsPartial.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 24,
+                  "endLine": 41,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_Home_Index.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 24,
+                  "endLine": 42,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_DomainContext_Create.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 24,
+                  "endLine": 45,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_Autentication_Index.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/Autentication/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 24,
+                  "endLine": 44,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_DomainContext_Index.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 24,
+                  "endLine": 41,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_User_Edit.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 24,
+                  "endLine": 43,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_DomainContext_Edit.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/DomainContext/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 24,
+                  "endLine": 45,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "O campo \"Views_User_Index.__tagHelperStringValueBuffer\" nunca é usado",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///F:/source/ToolBoxDeveloper/ToolBoxDeveloper.DomainContext/ToolBoxDeveloper.DomainContext.MVC/obj/Debug/netcoreapp3.1/Razor/Views/User/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 24,
+                  "endLine": 44,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        }
+      ],
+      "rules": {
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "O campo nunca é usado",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "O método assíncrono não possui operadores 'await' e será executado de forma síncrona",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

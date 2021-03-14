@@ -48,7 +48,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Controllers
             ModelState.AddModelError("ModelOnly", "Usuário ou senha incorreto");
             return View("Index",dto);
         }
-        public async Task<IActionResult> Logout(UserDto dto)
+        public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 

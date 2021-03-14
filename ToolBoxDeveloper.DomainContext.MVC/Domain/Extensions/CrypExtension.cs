@@ -26,20 +26,6 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Domain.Extensions
 
             return Retorno.ToString();
         }
-
-        public static string Encrypt(this string Texto, string chave, CryptValueObject provider)
-        {
-            CryptographySettings crip = new CryptographySettings(provider);
-            crip.Key = chave;
-            return crip.Encrypt(Texto);
-        }
-
-        public static string Decrypt(this string Texto, string chave, CryptValueObject provider)
-        {
-            CryptographySettings crip = new CryptographySettings(provider);
-            crip.Key = chave;
-            return crip.Decrypt(Texto);
-        }
     }
  
    
