@@ -1,13 +1,15 @@
 ﻿@model ToolBoxDeveloper.DomainContext.MVC.Domain.Dto.UserDto
+
 @{
-    //ViewData["Title"] = "_login";
-    Layout = null;
+    ViewData["Title"] = "Index";
 }
-<div class="row">
-    <div class="col-md-4">
-        <authentication mode="Forms">
-            <form asp-action="index">
-            @*    @Html.ValidationSummary()*@
+
+<h1>Novo Usuario</h1>
+<hr />
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="Email" class="control-label"></label>
@@ -16,17 +18,19 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
-                    <input asp-for="Password" class="form-control" type="password" />
+                    <input asp-for="Password" type="password" class="form-control" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Acessar" class="btn btn-primary" />
+                <div class="form-group" >
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                        Salvar
+                    </button>
                 </div>
             </form>
-        </authentication>
+        </div>
     </div>
 </div>
-
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

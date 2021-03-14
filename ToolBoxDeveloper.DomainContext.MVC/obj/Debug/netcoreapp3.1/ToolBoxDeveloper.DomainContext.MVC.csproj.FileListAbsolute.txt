@@ -242,4 +242,5 @@ F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.Domai
 F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\ToolBoxDeveloper.DomainContext.MVC.pdb
 F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\ToolBoxDeveloper.DomainContext.MVC.genruntimeconfig.cache
 F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Autentication\Index.cshtml.g.cs
-F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Autentication\_login.cshtml.g.cs
+F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+F:\source\ToolBoxDeveloper\ToolBoxDeveloper.DomainContext\ToolBoxDeveloper.DomainContext.MVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs

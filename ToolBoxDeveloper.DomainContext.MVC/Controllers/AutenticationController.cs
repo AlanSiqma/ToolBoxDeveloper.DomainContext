@@ -46,7 +46,7 @@ namespace ToolBoxDeveloper.DomainContext.MVC.Controllers
                 return RedirectToAction("Index", "DomainContext");
             }
             ModelState.AddModelError("ModelOnly", "Usuário ou senha incorreto");
-            return RedirectToAction("Index");
+            return View("Index",dto);
         }
         public async Task<IActionResult> Logout(UserDto dto)
         {

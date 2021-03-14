@@ -86,6 +86,10 @@ body {
 }
 
 .logo-site {
-    width: 38%;
+    width: 23%;
     margin-right: 50%;
+}
+
+.container-site {
+    padding-top: 5%!important
 }

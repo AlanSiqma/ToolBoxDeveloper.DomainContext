@@ -3,8 +3,28 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
+    </div>*@
+<div class="container-fluid">
+
+    <div class="row align-items-center">
+        <div class="col-6">
+            <h4>Grave as palavras de dominio, palavras chaves, e suas descrições</h4>
+            <h1 class="display-4">Facilitando assim o entendimento da regra de negocio</h1>
+            <a class="btn btn-primary" asp-controller="User" asp-action="Index">REGISTRAR-SE</a>
+        </div>
+        <div class="col-6">
+            <div class="">
+                <div class="embed-responsive">
+                    <img src="https://i.pinimg.com/originals/66/83/3e/66833e07d6fb9eb5d724e47d0c814285.gif" />
+                    @*<video autoplay loop playsinline="playsinline" muted>
+                        <source src="https://www.genial.ly/assets/img/home.mp4" type="audio/mp4">
+                    </video>*@
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
